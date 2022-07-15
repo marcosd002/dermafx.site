@@ -1,0 +1,1159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html, body, h1, h2, h3, h4, h5, h6, a, p, b, i {
+	font-family: 'Montserrat', sans-serif;
+}
+/* Reset */
+
+/* Header */
+header.header {
+	background: red;
+	margin: 0 auto;
+}
+header.header h1 {
+	clear: both;
+	display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+	letter-spacing: 1.2px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 0;
+}
+/* Header */
+
+/* Principal */
+section.principal {
+	background: #000000 url("../img/bg-topo.jpg")50% 0 no-repeat;
+	padding: 50px 0;
+}
+section.principal h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+section.principal h1 span {
+	color: #d5c890;
+}
+img.potes-principal {
+    clear: both;
+    display: block;
+    margin: auto;
+}
+a.cta {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+	text-transform: uppercase;
+    text-decoration: none;
+    background: #2cd95d;
+    padding: 25px 0;
+    width: 525px;
+    margin: 0 auto;
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+}
+a.cta-principal {
+    margin: 30px auto 0 auto;
+}
+section.principal svg.bi.bi-chevron-double-down {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 35px auto 0 auto;
+    fill: #d6ca92;
+}
+.list-right, .list-left {
+    clear: both;
+    display: block;
+    margin-top: 150px;
+}
+.list-right svg, .list-left svg {
+    margin-bottom: -5px;
+}
+.list-right h2 {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 35px 0;
+	color: #d6ca92;
+}
+.list-left h2 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 35px 0;
+	color: #d6ca92;
+}
+.pulsar {
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes pulse{
+0%,100%{transform:scale(.9);opacity:.9;}
+50%{transform:scale(1);opacity:1;}
+}
+@-webkit-keyframes pulse{
+0%,100%{-webkit-transform:scale(.95);opacity:.7}
+50%{-webkit-transform:scale(1);opacity:1}
+}
+@-webkit-keyframes bounce {
+    from { }
+    to { -webkit-transform: translateY(-10px); }
+}
+@-moz-keyframes bounce { 
+    from { }
+    to { -moz-transform: translateY(-10px); }
+}
+@-ms-keyframes bounce { 
+    from { }
+    to { -ms-transform: translateY(-10px); }
+}
+@-o-keyframes bounce { 
+    from { }
+    to { -o-transform: translateY(-10px); }
+}
+@keyframes bounce { 
+    from { }
+    to { transform: translateY(-10px); }
+}
+.bounce {
+	-webkit-animation: bounce .4s ease infinite alternate;
+	-moz-animation: bounce .4s ease infinite alternate;
+	-ms-animation: bounce .4s ease infinite alternate;
+	-o-animation: bounce .4s ease infinite alternate;
+	animation: bounce .4s ease infinite alternate;
+}
+/* Principal */
+
+/* Principal Solange */
+section.principal-solange {
+    padding: 50px 0 0 0;
+}
+section.principal-solange h1 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 30px auto;
+}
+.list-left-solange {
+	margin: 0;
+}
+.list-left-solange h2 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 16px 0;
+    color: #d6ca92;
+}
+img.foto-solange {
+    clear: both;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+img.foto-solange-moblie {
+    clear: both;
+    display: none;
+}
+a.cta-topo-solange, a.cta-videosolange {
+    margin-top: 40px;
+}
+img.tarja-compra {
+    clear: both;
+    display: block;
+    width: 200px;
+    margin: 5px auto 0 auto;
+}
+/* Principal Solange */
+
+/* Video Solange */
+section.video-solange {
+    padding: 50px 0;
+}
+section.video-solange h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 30px auto;
+}
+section.video-solange h1 span {
+    color: #9a7e46;
+}
+section.video-solange h2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+section.video-solange iframe {
+    clear: both;
+    display: block;
+    margin: auto;
+	width: 725px;
+    height: 408px;
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;	
+}
+/* Video Solange */
+
+/* Resultados 01 */
+section.resultados {
+    background: #d7cb93;
+    padding: 75px 0;
+}
+section.resultados h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 30px auto;
+}
+section.resultados h1 span {
+	color: #ffffff;
+}
+section.resultados h2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+img.ad-img {
+    clear: both;
+    display: block;
+    width: 550px;
+    margin: 0 auto 10px auto;
+}
+section.resultados h3 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+img.tarja-compra {
+    clear: both;
+    display: block;
+    width: 350px;
+    margin: 10px auto 0 auto;
+}
+/* Resultados 01 */
+
+/* Benefícios */
+section.beneficios {
+    background: #ffffff;
+    padding: 75px 0;
+}
+section.beneficios h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+section.beneficios h1 span {
+	color: #9a7e46;
+}
+img.beneficio-img {
+    clear: both;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+section.beneficios h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+	height: 71px;
+    margin: 0 auto 15px auto;
+}
+/* Benefícios */
+
+/* Anvisa */
+section.anvisa {
+    background: #e0e0e0;
+    padding: 50px 0;
+}
+section.anvisa p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px auto 0 auto;
+}
+section.anvisa p span {
+	font-weight: 700;
+}
+img.anvisa {
+    clear: both;
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+/* Anvisa */
+
+/* Antes e Depois */
+section.antes-depois {
+    padding: 75px 0;
+}
+h1.mobile, h2.mobile {
+    display: none;
+}
+section.antes-depois h1 {
+    color: #000000;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 15px auto;
+}
+section.antes-depois h2 {
+    color: #9a7e46;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+}
+section.antes-depois p {
+    clear: both;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+section.antes-depois p svg {
+    margin-bottom: -4px;
+    fill: #9a7e46;
+}
+a.cta-antesdepois {
+    margin: 40px auto 0 auto;
+}
+section.antes-depois iframe {
+    width: 100%;
+    height: 500px;
+}
+/* Antes e Depois */
+
+/* Garantia */
+section.garantia {
+    background: #000000;
+    padding: 75px 0;
+}
+section.garantia h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 30px auto;
+}
+section.garantia h1 span {
+	color: #d5c890;
+}
+section.garantia p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0;
+}
+section.garantia p span {
+	color: #d5c890;
+	font-weight: 800;
+}
+img.selo90dias {
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: 35px auto;
+}
+/* Garantia */
+
+/* Oferta */
+section.oferta {
+    background: #d7cb93;
+    padding: 75px 0;
+}
+section.oferta h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+.oferta-item-mb {
+	display: none;
+}
+/* Oferta */
+
+/* Resultados Homens */
+section.resultadosh {
+    padding: 75px 0;
+}
+section.resultadosh h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+section.resultadosh h1 span {
+	color: #9a7e46;
+}
+a.cta.cta-resultados {
+    margin-top: 50px;
+}
+/* Resultados Homens */
+
+/* Como comprar */
+section.comocomprar {
+    background: #ffffff;
+    padding: 75px 0;
+}
+section.comocomprar h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 20px auto;
+}
+section.comocomprar h2 {
+    color: #9a7e46;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+img.comprafacil {
+    clear: both;
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+/* Como comprar */
+
+/* WhatsApp */
+section.whatsapp {
+    padding: 75px 0;
+	background: #EAEAEA;
+}
+img.wpp-pv {
+    clear: both;
+    display: block;
+    width: 100px;
+    margin: 0 auto 30px auto;
+}
+section.whatsapp h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+section.whatsapp p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+a.cta.cta-whatsapp {
+    margin: 50px auto 20px auto;
+}
+section#whatsapp h2 {
+    clear: both;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+img.tarja-selos {
+    clear: both;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+/* WhatsApp */
+
+/* Faq */
+section.faq {
+    background: #000000;
+    padding: 75px 0;
+}
+section.faq h1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+.faq-accordion {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.faq-item {
+    margin: 0 0 15px 0;
+    border-bottom: solid 1px #d7cb93;
+}
+.faq-title {
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+    text-transform: uppercase;
+    color: #fafafa;
+    clear: both;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    transition: all .4s linear;
+}
+.faq-content {
+	background: #ffffff;
+	display: none;
+    padding: 20px 20px 20px 20px;
+}
+/* Faq */
+
+/* Páginas de obrigado */
+section.pag-obrigado {
+    background: #000000;
+    padding: 75px 0;
+}
+section.pag-obrigado h1 {
+    color: #d5c890;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 30px auto;
+}
+section#pag-obrigado p {
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+img.potes-obg {
+    clear: both;
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+img.icon-obg {
+    clear: both;
+    display: block;
+    width: 200px;
+    margin: 0 auto 30px auto;
+}
+/* Páginas de obrigado */
+
+/* Páginas de Remarketing */
+section.top-rmkt {
+    background: #000000;
+    padding: 50px 0;
+}
+.diferenciais-item svg {
+    fill: #d7cb93;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    margin: 0 auto 15px auto;
+}
+.diferenciais-item p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+span.arrow-down {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+span.arrow-down svg {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: -8px auto 0 auto;
+}
+section.oferta-especial {
+    padding: 50px 0;
+}
+section.oferta-especial h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+section.oferta-especial h1 span {
+    color: #9a7e46;
+}
+/* Páginas de Remarketing */
+
+/* VSL */
+section.vsl {
+    padding: 50px 0;
+    background: #000000;
+}
+section.vsl h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 auto 50px auto;
+}
+section.vsl h1 span {
+	color: #d5c890;
+}
+.video-vsl {
+    clear: both;
+    display: block;
+    width: 860px;
+    margin: auto;
+}
+.video-vsl iframe {
+    display: flex;
+    width: 100%;
+    height: 482px;
+    text-align: center;
+	margin: 0 auto;
+	border: 0;
+}
+/* VSL */
+
+/* Upsell */
+section.oferta-upsell {
+	background: #000000 url("../img/bg-topo.jpg") 50% 0 no-repeat;
+    padding: 75px 0;
+}
+section.oferta-upsell h1 {
+    color: #d5c890;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 30px auto;
+}
+section.oferta-upsell h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px auto;
+}
+img.upsell-potes {
+    clear: both;
+    display: block;
+    width: 95%;
+    margin: 50px auto;
+}
+section.oferta-upsell h3 {
+    background: rgba(213,200,144,1);
+    background: -moz-linear-gradient(45deg, rgba(213,200,144,1) 0%, rgba(154,126,70,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(213,200,144,1)), color-stop(100%, rgba(154,126,70,1)));
+    background: -webkit-linear-gradient(45deg, rgba(213,200,144,1) 0%, rgba(154,126,70,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(213,200,144,1) 0%, rgba(154,126,70,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(213,200,144,1) 0%, rgba(154,126,70,1) 100%);
+    background: linear-gradient(45deg, rgba(213,200,144,1) 0%, rgba(154,126,70,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5c890', endColorstr='#9a7e46', GradientType=1 );
+    padding: 20px 25px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    color: #ffffff;
+}
+section.oferta-upsell h4 {
+    color: #d5c890;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0 0 30px 0;
+}
+section.oferta-upsell h4 span {
+	background: #d5c890;
+	color: #000000;
+	padding: 0 10px;
+}
+img.preco-up {
+    clear: both;
+    display: block;
+    width: 350px;
+    margin: 0 auto 20px auto;
+}
+button.cta {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    background: #2cd95d;
+    padding: 25px 0;
+    width: 525px;
+    margin: 0 auto;
+	border: none !important;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+section.oferta-upsell p {
+	color: #ffffff;
+	font-size: 18px;
+	margin: 30px 0 0 0;
+	text-align: center;
+	font-weight: 600;
+}
+section.oferta-upsell p span {
+	font-weight: 800;
+	color: #d5c890;
+}
+/* Upsell */
+
+/* Rodapé */
+footer.footer {
+    background: #000000;
+    padding: 50px 0;
+    border-top: solid 5px #d7cb93;
+}
+img.logo-dermafix {
+    clear: both;
+    display: block;
+    width: 150px;
+}
+footer.footer h1 {
+    color: #F8E183;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+footer.footer a {
+    clear: both;
+    display: block;
+    color: #ffffff;
+    margin-bottom: 10px;
+	font-size: 13px;
+}
+a.whatsapp-ft {
+    background: url("../img/wpp-ft.jpg")no-repeat center !important;
+    background-size: 75px !important;
+    z-index: 1000;
+    height: 75px;
+    width: 75px;
+	text-decoration: none;
+}
+.blob {
+	background: black;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	margin: 0px 50px;
+	height: 20px;
+	width: 20px;
+	transform: scale(1);
+	animation: pulse-black 2s infinite;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    line-height: 2;
+    font-weight: 700;
+}
+
+@keyframes pulse-black {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.8);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+.blob.red {
+	background: rgba(255, 82, 82, 1);
+	box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+	animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-red {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+	}
+}
+/* Rodapé */
+
+/* Responsivo */
+@media (max-width: 800px) {
+	/* Header */
+	header.header {
+    	background: red;
+	}
+	header.header h1 {
+		font-size: 18px;
+	}
+	/* Header */
+	
+	/* Principal */
+	section.principal {
+		padding: 30px 0;
+	}	
+	section.principal h1, section.vsl h1, section.video-solange h1 {
+		font-size: 19px;
+		margin: 0 auto 20px auto;
+	}
+	.list-right, .list-left {
+		margin-top: 20px;
+	}
+	.list-right h2, .list-left h2 {
+		text-align: center;
+		margin: 10px 0;
+		font-size: 13px !important;
+	}
+	img.potes-principal {
+		width: 65%;
+	}
+	a.cta {
+		width: 100%;
+		font-size: 15px;
+	}
+	img.tarja-compra {
+		width: 200px;
+	}
+	/* Principal */
+	
+	/* Principal Solange */
+	section.video-solange iframe {
+		width: 358px;
+		height: 210px;
+	}
+	img.foto-solange {
+		display: none;
+	}
+	section.video-solange h2 {
+		font-size: 16px;
+	}
+	img.foto-solange-moblie {
+		clear: both;
+		display: block;
+		width: 80%;
+		margin: 30px auto;
+	}	
+	/* Principal Solange */
+	
+	/* Resultados */
+	section.resultadosh, section.resultados {
+		padding: 50px 0;
+	}
+	section.resultados h1, section.resultadosh h1 {
+		font-size: 20px;
+	}
+	section.resultados h2 {
+		font-size: 16px;
+	}
+	section.resultados h3 {
+		font-size: 14px;
+	}
+	img.ad-img {
+		width: 100%;
+		margin: 0 auto 35px auto;
+	}
+	/* Resultados */
+	
+	/* Benefícios */
+	section.beneficios {
+		padding: 50px 0;
+	}
+	section.beneficios h1 {
+		font-size: 20px;
+	}
+	img.beneficio-img {
+		width: 150px;
+	}
+	/* Benefícios */
+	
+	/* Anvisa */
+	img.anvisa {
+		width: 100%;
+		margin: 20px auto 0 auto;
+	}
+	/* Anvisa */
+	
+	/* Antes e Depois */
+	section.antes-depois {
+		padding: 50px 0;
+	}
+	section.antes-depois h1.mobile {
+		font-size: 17px;
+		margin: 0 auto 20px auto;
+		display: block;
+	}
+	section.antes-depois h1.desktop {
+		display: none;
+	}
+	section.antes-depois p {
+		font-size: 14px;
+	}
+	/* Antes e Depois */
+	
+	/* Garantia */
+	section.garantia {
+		padding: 50px 0;
+	}
+	img.selo90dias {
+		width: 150px;
+		margin: 0 auto 20px auto;
+	}
+	section.garantia h1 {
+		font-size: 20px;
+		margin: 0 auto 20px auto;
+	}
+	section.garantia p {
+		text-align: center;
+	}
+	/* Garantia */
+	
+	/* Oferta */
+	section.oferta {
+		padding: 50px 0;
+	}
+	section.oferta h1 {
+		font-size: 22px;
+	}
+	.oferta-item {
+		display: none !important;
+	}
+	.oferta-item-mb {
+		clear: both;
+		display: block !important;
+		margin: 20px auto;
+	}	
+	/* Oferta */
+	
+	/* Como comprar */
+	section.comocomprar h1 {
+		font-size: 20px;
+		margin: 0 auto 20px auto;
+	}
+	section.comocomprar h2 {
+		font-size: 16px;
+	}
+	img.comprafacil {
+		width: 100%;
+	}
+	/* Como comprar */
+	
+	/* WhatsApp */
+	section.whatsapp {
+		padding: 50px 0;
+	}
+	img.wpp-pv {
+		width: 75px;
+	}
+	section.whatsapp h1 {
+		font-size: 20px;
+		margin: 0 auto 20px auto;
+	}
+	section.whatsapp p {
+		font-size: 16px;
+	}
+	img.tarja-selos {
+		width: 250px;
+	}
+	/* WhatsApp */
+	
+	/* Faq */
+	section.faq {
+		padding: 50px 0;
+	}
+	section.faq h1 {
+		font-size: 20px;
+		margin: 0 auto 20px auto;
+	}
+	.faq-title {
+		padding: 15px;
+		font-size: 14px;
+	}
+	/* Faq */
+	
+	/* Páginas de remarketing */
+	section.top-rmkt {
+		padding: 25px 0;
+	}
+	.col-md-3.col-lg-3.col-sm-3.diferenciais-item {
+		width: 50%;
+		height: 130px;
+		float: left;
+		margin: 10px auto;
+	}	
+	.diferenciais-item svg {
+		width: 40px;
+	}
+	section.oferta-especial {
+		padding: 25px 0;
+	}	
+	section.oferta-especial h1 {
+		font-size: 22px;
+	}
+	img.oferta-item-rmkt {
+		clear: both;
+		display: block;
+		overflow: hidden !important;
+		width: 80%;
+		margin: 20px auto 20px auto;
+	}	
+	/* Páginas de remarketing */
+	
+	/* Página VSL */
+	.video-vsl {
+		width: 100%;
+	}
+	/* Página VSL */
+	
+	/* Upsell */
+	section.oferta-upsell {
+		padding: 35px 0;
+	}	
+	section.oferta-upsell h1 {
+		font-size: 30px;
+	}
+	section.oferta-upsell h2 {
+		font-size: 16px;
+		text-transform: inherit;
+		margin: 0 auto 30px auto;
+	}
+	img.upsell-potes {
+		clear: both;
+		display: block;
+		height: auto;
+		width: 80%;
+		margin: auto;
+	}
+	section.oferta-upsell h3 {
+		font-size: 22px;
+		margin: 20px 0;
+	}
+	section.oferta-upsell h4 {
+		font-size: 30px;
+		margin: 0 0 30px 0;
+	}
+	img.preco-up {
+		width: 65%;
+	}	
+	button.cta {
+		width: 100%;
+	}
+	section.oferta-upsell p {
+		font-size: 16px;
+	}
+	/* Upsell */
+	
+	/* Rodapé */
+	img.logo-dermafix {
+		width: 100px;
+		margin: 0 auto 30px auto;
+	}
+	footer.footer h1 {
+		text-align: center;
+	}
+	a.whatsapp-ft {
+		margin: 0 auto 30px auto !important;  
+	}
+	footer.footer a {
+		text-align: center;
+	}
+	img.pagamento {
+		clear: both;
+		display: block;
+		width: 70%;
+		margin: 0 auto 35px auto;
+	}
+	img.seguro {
+		clear: both;
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+	}		
+	/* Rodapé */
+
+}
+/* Responsivo */
