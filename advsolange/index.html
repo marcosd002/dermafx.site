@@ -1,0 +1,538 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.jpg" />
+<title>Matéria g1 - Cápsulas do tempo</title>
+<link href="assets/style.css" rel="stylesheet" type="text/css" media="all">
+<!-- Style Bootstrap !-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">	
+<!-- Style Bootstrap !-->
+
+<!-- Pixel Aqui !-->
+</head>
+
+<body>
+<!-- Back direct !-->
+<script>
+    (function(b) {
+        var a = {
+            version: "0.0.1",
+            history_api: typeof history.pushState !== "undefined",
+            init: function() {
+                b.location.hash = "#no-back";
+                a.configure();
+            },
+            hasChanged: function() {
+                if (b.location.hash == "#no-back") {
+                    b.location.hash = "#";
+                    if (b.location.search == null || b.location.search == undefined || b.location.search ==
+                        '') {
+                        b.location.href = “https://dermaefix.com.br/?src=back_home";
+                    } else {
+                        if (location.search.indexOf("src") > -1) {
+                            var partes = location.search.slice(1).split('&');
+                            var data = {};
+                            var new_search = '?';
+                            partes.forEach(function(parte) {
+                                var chaveValor = parte.split('=');
+                                var chave = chaveValor[0];
+                                var valor = chaveValor[1];
+                                data[chave] = valor;
+                            });
+                            data.src = data.src + "-->back_home";
+                            new_search += JSON.stringify(data).replace(/[{}"]/g, "").replace(/[:]/g, "=")
+                                .replace(/[,]/g, "&");
+    
+                            b.location.href = "https://dermaefix.com.br/" + new_search;
+                        } else {
+                            b.location.href = "https://dermaefix.com.br/" + b.location.search + "&src=back_home";
+                        }
+                    }
+                }
+            },
+            checkCompat: function() {
+                if (b.addEventListener) {
+                    b.addEventListener("hashchange", a.hasChanged, false);
+                } else {
+                    if (b.attachEvent) {
+                        b.attachEvent("onhashchange", a.hasChanged);
+                    } else {
+                        b.onhashchange = a.hasChanged;
+                    }
+                }
+            },
+            configure: function() {
+                if (b.location.hash == "#no-back") {
+                    if (this.history_api) {
+                        history.pushState(null, "", "#");
+                    } else {
+                        // b.location.hash = "#";
+                        if (b.location.search == null || b.location.search == undefined || b.location.search ==
+                            '') {
+                            b.location.href = "https://dermaefix.com.br/?src=back_home";
+                        } else {
+                            if (location.search.indexOf("src") > -1) {
+                                var partes = location.search.slice(1).split('&');
+                                var data = {};
+                                var new_search = '?';
+                                partes.forEach(function(parte) {
+                                    var chaveValor = parte.split('=');
+                                    var chave = chaveValor[0];
+                                    var valor = chaveValor[1];
+                                    data[chave] = valor;
+                                });
+                                data.src = data.src + "-->back_home";
+                                new_search += JSON.stringify(data).replace(/[{}"]/g, "").replace(/[:]/g, "=")
+                                    .replace(/[,]/g, "&");
+    
+                                b.location.href = "https://dermaefix.com.br/" + new_search;
+                            } else {
+                                b.location.href = "https://dermaefix.com.br/" + b.location.search + "&src=back_home";
+                            }
+                        }
+                    }
+                }
+                a.checkCompat();
+                a.hasChanged();
+            }
+        };
+        if (typeof define === "function" && define.amd) {
+            define(function() {
+                return a;
+            });
+        } else {
+            if (typeof module === "object" && module.exports) {
+                module.exports = a;
+            } else {
+                b.noback = a;
+            }
+        }
+        a.init();
+    }(window));
+</script>
+<!-- Back direct !-->
+	
+<!-- Topo !-->
+<header class="header" id="header">
+	<!-- Menus G1 !-->
+	<section class="top-1" id="top-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 col-sm-6">
+					<a class="menu-globo">globo.com</a>
+					<a class="menu-g1">g1</a>
+					<a class="menu-ge">ge</a>
+					<a class="menu-gshow">gshow</a>
+					<a class="menu-gplay">globoplay</a>
+				</div>
+				<div class="col-md-6 col-lg-6 col-sm-6">
+					<img src="img/img-menu-1.jpg" width="100%" height="100%" class="img-menu-1 img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Menus G1 !-->
+	
+	<!-- Caceçalho G Reporter !-->
+	<section class="top-2" id="top-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<img src="img/img-menu-2.jpg" width="100%" height="100%" class="img-menu-2 img-fluid">				
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<svg fill="none" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+						<path d="M30.167 4.866L38.12.134C38.99-.295 40 .345 40 1.512V30.31c0 .54-.585 1.133-1.307 1.133h-3.655a1.315 1.315 0 01-1.306-1.323V9.352l-2.444 1.458c-.868.426-1.855-.237-1.855-1.213V6.055c0-.507.285-.968.734-1.19zM14.11 25.831c-3.246 0-5.977-2.607-5.977-6.415 0-3.86 2.73-6.416 5.977-6.416 3.246 0 5.925 2.555 5.925 6.416 0 3.808-2.68 6.415-5.925 6.415zm7.368-18.463c-.773 0-1.236.469-1.236 1.251v1.356c-1.392-1.722-3.968-3.026-6.545-3.026C7.411 6.95 2 12.374 2 19.467c0 7.094 5.1 11.997 11.542 11.997a8.67 8.67 0 006.389-2.764c-.05 4.954-2.627 7.198-7.059 7.198-2.37 0-4.586-.731-7.161-2.4-.67-.469-1.443-.313-1.804.418L2.36 36.993c-.36.73-.257 1.408.464 1.877C6.02 40.956 9.782 42 13.028 42c8.502 0 13.19-4.643 13.19-15.335V8.62c0-.782-.463-1.251-1.236-1.251h-3.504z" fill="#fff"></path>
+					</svg>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<img src="img/barra-busca.jpg" width="100%" height="100%" class="barra-busca img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Caceçalho G Reporter !-->
+</header>
+<!-- Topo !-->
+	
+<!-- Conteúdo geral !-->
+<main class="main" id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12 col-sm-12">
+				<div class="conteudo-materia">
+					<!-- Matéria !-->
+					<h1> Exclusivo: <span class="red"> "Cápsulas do tempo" </span> Solange Couto <i>Conta como aparenta ser 15 anos mais jovem</i> Sem plástica nem botox. <span class="red"> Ela releva tudo nesta matéria </span> </h1>
+					<h2>A atriz da Globo, Solange Couto, frequentemente questionada pela mídia sobre seu segredo de jovialidade, finalmente conta o que anda fazendo para rejuvenescer quase 15 anos, e conquistar a pele tão desejada por toda mulher.</h2>
+					
+					<img src="img/img1.jpg" width="100%" height="100%" class="img-materia1 img-fluid">
+					<span class="legenda-img-materia">A descoberta cientifica apelidada de "Milagre do rejuvenescimento"</span>
+					
+					<p>O que você acharia de apertar um botão e <b>retroceder anos de envelhecimento</b> em pouquíssimo tempo? Pois é exatamente isso que a Celebridade Global fez ao utilizar uma pílula chamada de <span class="red"><b>“Cápsula do tempo.”</b></span></p>
+					
+					<p>Ela revela ainda, detalhes deste <b>segredo</b> que as celebridades globais e da mídia tem utilizado para reverter o processo de envelhecimento da pele, literalmente voltando no tempo <b>10, 15 e até 20 anos.</b></p>
+					
+					<p class="aspas"><b>“Essa pílula me ajudou muito, minha pele ficou outra depois de utilizar, fez bem pra pele e pro bolso, porque é mais barata que o Botox e não gerou nenhum efeito colateral em mim. Além disso, é muito mais simples poder tomar uma cápsula sem nem ter que sair de casa”</b></p>
+					
+					<p>Solange ainda conta que, além de realizar o tratamento em si mesma, fez questão de presentear uma amiga, que assim como ela, é uma mulher de mais de 60 anos e que merece se sentir jovem novamente.</p>
+
+					<p class="aspas"><b>“Ela é uma verdadeira amiga, perguntou se eu estava fazendo algum procedimento e falei das capsulas. Ela merecia receber esse presente faz parte da minha família, já está utilizando e tento bons resultados também."</b></p>
+					
+					<p>Perguntamos a Solange o que é esse tal tratamento milagroso e como as leitoras do G1 poderiam também ter acesso ao <span class="red"><b>mesmo tratamento.</b></span> Ela respondeu:</p>
+
+					<p class="aspas"><b> “Olha, eu questionei muito sobre o produto. E entendi que ele possui uma tecnologia que faz com que seu corpo substitua as células velhas por células novas. Eu experimentei, aprovei e continuo usando.”</b></p>
+					
+					<p>Abaixo, um exemplo de como essa tecnologia age nas camadas da pele. <b>Veja em detalhes.</b></p>
+
+					<img src="img/img2.jpg" width="100%" height="100%" class="img-materia9 img-fluid">
+					<span class="legenda-img-materia"><b>EFEITO QUE A COMPOSIÇÃO CAUSA NA SUA PELE</b></span>
+					
+					<p>Perguntamos a Solange como nossas leitoras poderiam <b>comprar</b> este mesmo tratamento que a fez repaginar sua pele... e para a <b>sua felicidade,</b> ela revelou.</p>
+
+					<p class="aspas"><b>“Ele começou a ser vendido no Brasil recentemente, e pode ser adquirido pelo site oficial da empresa. Eu comprei o tratamento de 5 meses, e foi mais do que suficiente. Senti minha pele rejuvenescendo muito logo nos primeiros 30 dias de tratamento."</b></p>
+					
+					<p class="grifado">Agora preste muita atenção pois revelaremos em primeira mão todos os detalhes do tratamento utilizado pela Solange Couto e outras celebridades no Brasil para rejuvenescer anos de vida. Você descobrirá qual o site oficial e qual o valor para adquirir o mesmo tratamento.</p>
+
+					<p>Se você quer ter os mesmos benefícios que a Solange conseguiu e ter acesso ao mesmo produto utilizado por ela, <b>continue lendo</b> para descobrir.</p>
+
+					<p>Antes de revelarmos o site onde você poderá adquirir suas <b>"cápsulas do Tempo"</b> e <b>rejuvenescer até 20 anos</b> em alguns meses, veja o que ele irá fazer em sua pele logo nos primeiros dias de tratamento.</p>
+					
+					<img src="img/img3.jpg" width="100%" height="100%" class="img-pote10 img-fluid">
+						
+					<p style="margin-top:30px;">Tomamos o cuidado de procurar o fabricante do produto e solicitamos o envio de fotos de algumas clientes que realizaram o mesmo tratamento que a Solange e ficamos ainda mais impressionados com os resultados. Vejam abaixo alguns dos depoimentos enviados:</b></span></p>
+						
+					<img src="img/img4.jpeg" width="100%" height="100%" class="img-materia11 img-fluid">
+					<span class="legenda-img-materia"><b>ANA RODRIGUES - 52 - BELO HORIZONTE - MG</b></span>
+						
+					<img src="img/img5.jpeg" width="100%" height="100%" class="img-materia12 img-fluid">
+					<span class="legenda-img-materia"><b>LOURDES APARECIDA - 50 - EMBU DAS ARTES - SP</b></span>
+						
+					<img src="img/img6.jpeg" width="100%" height="100%" class="img-materia13 img-fluid">
+					<span class="legenda-img-materia"><b>BENEDITO BARROS- 64 - SÃO PAULO - SP</b></span>
+						
+					<p style="margin-top:30px;"><b>Nós do G1</b> fomos atrás da empresa e conseguimos uma condição especial para as nossas leitoras, e depois de muita insistência...eles nos atenderam.</p>
+						
+					<p><b>Conseguimos o Dermafix, produto utilizado pela solange couto e por outras celebridades no Brasil</b> com até 60% de desconto.</p>
+
+					<p class="grifado">Mas preste atenção, pois este desconto não estará disponível por muito tempo. O desconto será aplicado para as primeiras 250 pessoas que adquirirem. </p>
+						
+					<p>Conseguimos também <b>FRETE GRÁTIS</b> em todos os tratamentos.</span></b></p>
+					
+					<p>Ou seja, você economizará <b>29,90</b> do valor do frete. Você não pagará <b>NADA</b> pelo envio do produto até sua residência.</p>
+
+					<img src="img/img7.jpeg" width="100%" height="100%" class="img-frete img-fluid">
+						
+					<!-- LINK AQUI !-->	
+					<a href="https://dermaefix.com.br" target="_blank" class="cta-btfrete"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg> ADQUIRA O DERMA FIX COM FRETE GRÁTIS <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+  <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+</svg></a>
+						
+					<h1>Também conseguimos uma garantia <br>exclusiva para nossas leitoras</h1>
+
+					<img src="img/img8.png" width="100%" height="100%" class="img-garantia img-fluid">
+						
+					<p style="margin-top:30px;">Conseguimos <span class="red"><b>90 Dias de Garantia de Resultado!</b></span> Isso significa que quando você começar seu tratamento hoje e dentro de 90 dias não estiver satisfeita você <span class="red"><b>receberá 100% do seu dinheiro de volta.</b></span></p>
+						
+					<p>Você não terá outra oportunidade de adquirir o Derma Fix com com <b>FRETE GRÁTIS E 90 DIAS DE GARANTIA</b></p>
+
+					<h1>Clique abaixo e adquira o seu Derma Fix</h1>
+
+					<!-- LINK AQUI !-->	
+					<a href="https://dermaefix.com.br"target="_blank"><img src="img/img9.jpg" width="100%" height="100%" class="img-pote10 img-fluid"></a>
+
+					<p style="margin-top:30px;"><b>Quanto custa o Derma Fix?</b></p>
+
+					<p>O Derma Fix tem tratamentos a partir de <b>19,86 por mês.</b> podendo ser adquirido em até 12x no cartão de crédito, PIX ou boleto bancário.</p>
+					
+					<div class="kits-potes">
+						
+						<!-- LINK 12 POTES !-->
+						<a class="img-pote" href="https://ev.braip.com/campanhas/cpa/camx92v1o&split=12" target="_blank">
+							<img src="img/p12.png" width="100%" height="100%" class="of-desk img-fluid">
+							<img src="img/12potes-mobile.png" width="100%" height="100%" class="of-mobile img-fluid">
+						</a>
+						<!-- LINK 12 POTES !-->
+						
+						<!-- LINK 5 POTES !-->
+						<a class="img-pote" href="https://ev.braip.com/campanhas/cpa/cam6xpv2m&split=12" target="_blank">
+							<img src="img/p5.png" width="100%" height="100%" class="of-desk img-fluid">
+							<img src="img/5potes-mobile.png" width="100%" height="100%" class="of-mobile img-fluid">
+						</a>
+						<!-- LINK 5 POTES !-->
+						
+						<!-- LINK 3 POTES !-->
+						<a class="img-pote" href="https://ev.braip.com/campanhas/cpa/camdnvyo8&split=12" target="_blank">
+							<img src="img/p3.png" width="100%" height="100%" class="of-desk img-fluid">
+							<img src="img/3potes-mobile.png" width="100%" height="100%" class="of-mobile img-fluid">
+						</a>
+						<!-- LINK 3 POTES !-->
+
+						<!-- LINK 1 POTE !-->
+						<a class="img-pote" href="https://ev.braip.com/campanhas/cpa/camze2y4x&split=12" target="_blank">
+							<img src="img/p1.png" width="100%" height="100%" class="of-desk img-fluid">
+							<img src="img/1pote-mobile.png" width="100%" height="100%" class="of-mobile img-fluid">
+						</a>
+						<!-- LINK 1 POTE !-->
+						
+					</div>	
+					<!-- Matéria !-->
+					
+					<!-- Comentários FB !-->
+					<section class="comments py-4">
+					<div class="fb-comments">
+					<div class="fb-comments-header"><span>11 Comentários</span></div>
+
+					<div class="fb-comments-wrapper" id="1">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo1.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Samantinha Nunes</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Meninas, sério mesmo, COMPREM AGORA! Eu comprei o pacote com 3 potes e em menos de 1 mês eu já vi uma diferença boa. Mas muuuuuito boa msm! Super recomendo.</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>31</likes> <date>3 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-wrapper" id="2">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo2.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Ana Beatriz</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Atendimento muito bom! Chegou super rápido! Ja estou tomando a uma semana!  Ja senti o efeito mas em breve eu volto pra falar como foi o tratamento depois desses 28 dias!  Mas a compra é segura gente, podem relaxar rsrs.</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>35</likes> <date>4 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-wrapper" id="3">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo3.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Ana Cristina</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Eu sempre tive aquela bolsa embaixo dos olhos e muuuita olheira! Decidi dar uma chance e realmente foi um “Botox Natural” como eles dizem! Gente, é surreal!</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>45</likes> <date>7 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-wrapper" id="4">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo4.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Fátima Silva</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Acabei de fazer meu pedido! Mega Ansiosa kk</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>50</likes> <date>12 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-wrapper" id="5">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo5.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Claudia V.</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Gente será que funciona? Eu quero muito melhorar minha pele, meus pés de galinha estão me matando! MAs não sei viu…</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>15</likes> <date>19 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-reply-wrapper" id="8-1">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo6.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Amanda</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Oi Claudia, olha eu vou falar por mim. Comprei faz 1 mês e tive mais resutado que nunca! Eles realmente entregam o que prometem então se o seu medo é se funciona ou não pode comprar sem pensar.</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>10</likes> <date>23 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-reply-wrapper" id="8-2">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo2.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Ana Beatriz</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Eu tbm to gostando muito! o resutado é muito rápido e sendo sincera, até meu namorado percebeu a diferança.</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>30</likes> <date>15 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-reply-wrapper" id="8-3">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo7.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Mayara</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Valeu galera! Vou comprar</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>4</likes> <date>7 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+						
+					<button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais comentários</button>
+
+					<div id="more" style="display:none">
+					<div class="fb-comments-wrapper">
+					<table class="fb-comments-comment" id="10">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo8.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Fernanda Jesus</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Eu pensei que essas rugas iam ficar comigo até morrer kkkkk é muito bom ter recuperado minha pele mesmo com 60 anos!!  Realmente é uma cápasula do tempo.</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>41</likes> <date>1 h</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-reply-wrapper" id="10-1">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo9.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Mariana Perdizes</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Acabei de fazer meu pedido, mega ansiosa ^^</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>18</likes> <date>44 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					<div class="fb-comments-reply-wrapper" id="10-2">
+					<table class="fb-comments-comment">
+						<tbody>
+							<tr>
+								<td class="fb-comments-comment-img" rowspan="3"><img src="img/foto-depo10.jpg" /></td>
+								<td><font class="fb-comments-comment-name"><name>Édina</name> </font></td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-text">Chegou muito rápido!!!  Valeu galera do Derma Fix! Daqui 30 dias eu volto e falo se deu certo!</td>
+							</tr>
+							<tr>
+								<td class="fb-comments-comment-actions"><like>Curtir</like> &middot; <reply>Responder</reply> &middot; <likes>7</likes> <date>19 min</date></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+
+					</div>
+					</div>
+					</section>
+
+					<script>
+						function showBtn1 () {
+						  document.getElementById("btn1").classList.remove("hide")
+						}
+						setTimeout(showBtn1, 2100000) // temporizaï¿½ï¿½o em milissegundos
+						function showBtn2 () {
+						  document.getElementById("btn2").classList.remove("hide")
+						}
+						setTimeout(showBtn2, 2100000) // temporizaï¿½ï¿½o em milissegundos
+					</script>
+					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+					<script src="assets/loadmore.js"></script>				
+					<!-- Comentários FB !-->
+				</div>
+			</div>
+		</div>
+	</div>	
+</main>
+<!-- Conteúdo geral !-->
+	
+<!-- Footer !-->
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-6 col-sm-6 ft-1">
+				<svg fill="none" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+					<path d="M30.167 4.866L38.12.134C38.99-.295 40 .345 40 1.512V30.31c0 .54-.585 1.133-1.307 1.133h-3.655a1.315 1.315 0 01-1.306-1.323V9.352l-2.444 1.458c-.868.426-1.855-.237-1.855-1.213V6.055c0-.507.285-.968.734-1.19zM14.11 25.831c-3.246 0-5.977-2.607-5.977-6.415 0-3.86 2.73-6.416 5.977-6.416 3.246 0 5.925 2.555 5.925 6.416 0 3.808-2.68 6.415-5.925 6.415zm7.368-18.463c-.773 0-1.236.469-1.236 1.251v1.356c-1.392-1.722-3.968-3.026-6.545-3.026C7.411 6.95 2 12.374 2 19.467c0 7.094 5.1 11.997 11.542 11.997a8.67 8.67 0 006.389-2.764c-.05 4.954-2.627 7.198-7.059 7.198-2.37 0-4.586-.731-7.161-2.4-.67-.469-1.443-.313-1.804.418L2.36 36.993c-.36.73-.257 1.408.464 1.877C6.02 40.956 9.782 42 13.028 42c8.502 0 13.19-4.643 13.19-15.335V8.62c0-.782-.463-1.251-1.236-1.251h-3.504z" fill="#fff"></path>
+				</svg>
+				<p>Últimas Notícias</p>
+				<span>© Copyright 2000-2022 Globo Comunicação e Participações S.A.</span>
+			</div>
+			<div class="col-md-6 col-lg-6 col-sm-6 ft-2">
+				<p>Globo Notícias</p>
+				<a>princípios editoriais</a>
+				<a>política de privacidade</a>
+				<a>minha conta</a>
+				<a>anuncie conosco</a>
+			</div>
+			<div class="col-md-6 col-lg-6 col-sm-6 copyright ">
+				<p>Copyright ® 2021</p>
+				<p>Todos os direitos reservados.</p>
+				<p><a href="https://dermaefix.com.br/termos.html" target="_blank">Termos e condições</a> <span>|</span> <a href="https://dermaefix.com.br/privacidade.html" target="_blank">Políticas de Privacidade</a></p>
+			</div>
+		</div>
+	</div>	
+</footer>
+<!-- Footer !-->
+	
+<!-- JS Bootstrap !-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>	
+<!-- JS Bootstrap !-->	
+</body>
+</html>
