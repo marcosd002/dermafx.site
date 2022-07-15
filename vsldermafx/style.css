@@ -1,0 +1,406 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: #fafafa url(img/bg-site.png) no-repeat 50% -45px !important;
+	background-size: 100% !important;
+}
+
+/* Headline */
+.headline h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 30px 0;
+}
+.headline span {
+	color: #ffba00;
+}
+.headline i {
+    background: red;
+    padding: 0 10px;
+    color: #ffba00;
+}
+/* Headline */
+
+/* Vídeo VSL */
+.video-vsl {
+    clear: both;
+    display: block;
+    width: 860px;
+    margin: auto;
+}
+.video-vsl iframe {
+    display: flex;
+    width: 100%;
+    height: 482px;
+    text-align: center;
+	margin: 0 auto;
+	border: 0;
+}
+.video-vsl p {
+    color: #ffba00;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+/* Vídeo VSL */
+
+/* Menu accordio delay - Potes */
+.cta-delay {
+    margin: 30px 0 0 0;
+}
+.accordion-button::after {
+	display: none !important;
+}
+h2#flush-headingOne {
+    width: 500px;
+    margin: auto;
+}
+.cta-delay a {
+    text-align: center;
+	text-decoration: none;
+    display: block;
+    background: #61CE70;
+    color: #fff;
+	font-size: 20px;
+	width: 500px;
+	font-weight: 800;
+    text-transform: uppercase;
+	margin: auto;
+    padding: 25px;
+	border-bottom: solid 5px #23A455;
+    border-radius: 10px 10px 10px 10px !important;
+    -moz-border-radius: 10px 10px 10px 10px !important;
+    -webkit-border-radius: 10px 10px 10px 10px !important;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+.cta-delay a:hover {
+	color: #ffffff;
+	background: #23A455;
+	border-bottom: solid 5px #61CE70;
+	cursor: pointer;
+	animation-name: bounce;
+	-moz-animation-name: bounce;
+}
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+.accordion-item.accordion-potes {
+    background: transparent;
+}
+div#flush-collapseOne {
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.1);	
+}
+.accordion-body {
+    padding: 0 !important;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+.potes-item {
+    float: left;
+}
+.potes-item a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    cursor: pointer !important;
+}
+/* Menu accordio delay - Potes */
+
+/* Estido FB Comments */
+.col-fb-center {
+	border: none !important;
+	margin: auto !important;
+}
+.fb-comments {
+  border: 1px solid #e9ebee;
+  border-radius: 3px;
+  padding: 0 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  position: relative;
+  color: #4267b2;
+  background: #ffffff;
+}
+
+.fb-comments-header {
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.fb-comments-header span {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.fb-comments-comment {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.fb-comments-reply-wrapper {
+  margin-left: 60px;
+  border-left: 1px dotted #e9ebee;
+  padding-left: 5px;
+}
+
+tr,
+td {
+  border: none;
+  margin: 0;
+}
+
+td {
+  padding: 2.5px;
+}
+
+tr {
+  padding: 2.5px 0;
+}
+
+.fb-comments-comment-img {
+  vertical-align: top;
+  width: 48px;
+  padding-right: 5px;
+}
+
+.fb-comments-comment-img img {
+  max-width: 48px;
+  border-radius: 25px;
+}
+
+.fb-comments-comment-name {
+  font-size: 0.85em;
+}
+
+.fb-comments-comment-name name {
+  color: #365899;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-name name:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-comment-name occupation {
+  color: #90949c;
+}
+
+.fb-comments-comment-text {
+  font-size: 0.9em;
+  color: #000;
+  border-radius: 21px;
+  background-color: #eaebef;
+  padding: 10px 20px;
+}
+
+.fb-comments-comment-actions like,
+.fb-comments-comment-actions reply {
+  font-size: 0.75em;
+  color: #4267b2;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-actions like.liked {
+  color: #90949c;
+}
+
+.fb-comments-comment-actions like:hover,
+.fb-comments-comment-actions reply:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-comment-actions likes {
+  font-size: 13px;
+  background: url( "img/like.png");
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -10px;
+  float: right;
+  background-color: #fff;
+  border: solid #eaebef;
+  border-radius: 19px;
+}
+
+.fb-comments-comment-actions date {
+  font-size: 0.75em;
+  color: #90949c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-actions date:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-loadmore {
+  background: #4080ff;
+  border: 1px solid #4080ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.875em;
+  text-shadow: none;
+  width: 100%;
+  font-weight: 700;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.fb-reply-input {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px 7.5px;
+  font-size: 0.75em;
+  color: #000;
+  outline: none;
+}
+
+.fb-reply-input:hover,
+.fb-reply-button:hover {
+  outline: none;
+}
+
+.fb-reply-button {
+  background: #4080ff;
+  border: 1px solid #4080ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 5px 7.5px;
+  text-shadow: none;
+  width: 100%;
+  font-weight: 700;
+  cursor: hand;
+  cursor: pointer;
+  outline: none;
+}
+
+.bbtn {
+  width: 100%;
+  max-width: 449px;
+}
+/* Estido FB Comments */
+
+/* Footer */
+footer {
+	background: #000000;
+	padding: 30px 0;
+}
+.pirataria h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+}
+.pirataria span {
+    color: #ffba00;
+}
+.pirataria p {
+	font-size: 12px;
+	color: #ffffff;
+	text-align: justify;
+}
+.copyright {
+    padding-top: 25px;
+}
+.copyright p {
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 5px auto;
+}
+.copyright a {
+    color: #ffffff;
+}
+.copyright a:hover {
+    color: #ffba00;
+}
+.text-all {
+    margin-top: 30px !important;
+}
+.text-all p {
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+}
+/* Footer */
+
+/* Responsivo */
+@media (max-width: 1366px) {
+	.headline h1 {
+		font-size: 50px;
+	}
+	.video-vsl iframe {
+		height: 415px;
+	}
+}
+@media (max-width: 700px) {
+	body {
+		background-size: 250% !important;
+	}
+	.headline h1 {
+		font-size: 20px;
+	}
+	.video-vsl {
+		width: 350px;
+		margin: auto;
+	}
+	h2#flush-headingOne {
+		width: 340px;
+	}
+	.pirataria h2, .pirataria p {
+		text-align: center;
+	}
+}
+/* Responsivo */
