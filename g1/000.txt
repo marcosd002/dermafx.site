@@ -1,0 +1,218 @@
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<title>G1 Globo - Saúde</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="all">
+<!-- Bootstrap !-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<!-- Bootstrap !-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topo" id="topo">
+	
+	<!-- Cabeçalho 01 - Menus Glogo !-->
+	<section class="topo-01">
+		<div class="container">
+			<div class="row">
+				
+			<div class="col-md-6 col-lg-6 col-sm-6">
+				<a href=""><img src="img/m1.png" class="img-fluid m1-img" alt="img"></a>
+			</div>
+				
+			<div class="col-md-6 col-lg-6 col-sm-6">
+				<a href=""><img src="img/m2.png" class="img-fluid m2-img" alt="img"></a>
+			</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Cabeçalho 01 - Menus Glogo !-->
+	
+	<!-- Cabeçalho 02 - Nome do programa !-->
+	<section class="topo-02">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<a href=""><img src="img/m3.png" class="img-fluid m3-img" alt="img"></a>
+				</div>
+				
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<a href=""><img src="img/m4.png" class="img-fluid m4-img" alt="img"></a>
+				</div>
+				
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<a href=""><img src="img/m5.png" class="img-fluid m5-img" alt="img"></a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Cabeçalho 02 - Nome do programa !-->
+	
+</header>
+	
+<section class="conteudo" id="conteudo">
+	<div class="container">
+		<div class="row">
+			
+			<!-- Conteúdo da matéria !-->
+			<div class="col-md-8 col-lg-8 col-sm-8">
+				
+				<div class="materia">
+					<h1 style="text-align: left;">Resveratrol Americano, que aumenta a expectativa de vida, combate as rugas e promove uma pele jovem, sem marcas de expressão chega ao Brasil.</h1>
+<h4>Gotas sublinguais tem resultados surpreendentes, o ReveraVit foi liberado pela Anvisa e será comercializado a partir de maio em todo o país.</h4>
+					<p style="text-align: left;">Descubra tudo sobre a nova promessa da indústria da beleza agora na íntegra.</p>
+					<img src="img/img1.png" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid">
+					<h6>Laboratório especializado em combate a rugas, no centro de pesquisas do ResveraVit, na cidade do Texas. (Foto: Reprodução/Murilo Serra G1)</h6>
+					<p style="text-align: left;">Estima-se que as rugas e linhas de expressão afetam mais de 4 bilhões de pessoas em todo o mundo, sendo que mais de 3 bilhões são mulheres. No Brasil, cerca de 70% das mulheres têm alguma queixa relacionada a pele, seja por conta das rugas ou por após os 30, não conseguirem retomar a pele jovial com um aspecto natural e saudável.</p>
+					<p style="text-align: left;">No mercado brasileiro existem vários tratamentos que prometem solucionar o problema, desde Aplicações, Acupuntura facial, Patches antirrugas, Peeling químico e até Preenchimento e terapia celular. Nenhum deles, entretanto, têm a mesma comprovação científica e a mesma garantia de eficácia. No entanto um estudo americano promete solucionar esse problema! Até 2021 esse estudo era puramente internacional e o tratamento ainda não havia sido disponibilizado ao público Brasileiro.</p>
+					<p style="text-align: left;">Um tratamento americano recém desenvolvido a base de GOTAS SUBLINGUAIS DE RESVERATROL promete curar esse problema, durante testes de laboratório, os cientistas identificaram que uma medicação natural, o Resveratrol, usado para aumentar a expectativa de vida de seres humanos, e melhorar a saúde do organismo também teve um efeito forte sobre a pele dos paciente, estimulando-a a criação de novas celulas do zero e rejuvenescendo a pele. Ela contém um poderoso componente capaz de inativar uma proteína promove o envelhecimento seria uma das responsáveis pela rugas na pele. Comprovou-se que a proteína combate rugas sem nenhum efeito colateral. Com garantias e comprovações cientificas de 99% de eficácia no FDA, Anvisa Americana. Conheça o <a href="https:"LINK AQUI" style="text-decoration:none"><font color="red">Resveratrol Americano®</font></a></p>
+					<img src="img/mono1.jpeg" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid">
+					<h6>Centro de pesquisas do FDA, agência federal do Departamento de Saúde e Serviços Humanos dos Estados Unidos. (Foto: Reprodução/Murilo Serra G1)</h6>
+					<p style="text-align: left;">O <a href="LINK AQUI" style="text-decoration:none"><font color="red">Resveratrol Americano</font></a>, ajuda a manter a sustentação e a hidratação da pele, evitando a flacidez, as linhas e sinais de expressão, preenchendo e mantendo a pele hidratada, viçosa e revitalizada. Por ser um componente natural do nosso organismo essa substância é muito bem aceita pelas camadas da pele.</p>
+					<p style="text-align: left;">Combinado ao Ácido Hialurônico + Colágeno Verisol, a pele fica mais saudável e livre daquela aparência cansada e sem viço. Ou seja, é um Tratamento Rejuvenescedor. E por ser encontrado em gotas, com uso sublingual, a absorção é rápida e as dosagens são mais concentradas.</p>
+					<p style="text-align: left;">Estudos feitos em laboratórios americanos, comprovam que o Tratamento com o <a href="LINK AQUI" style="text-decoration:none"><font color="red">Resveratrol Americano</font></a> pode ser feito em qualquer época do ano, por não alterar a epiderme. “Antigamente pensávamos que 1 medicamento so pode ter 1 efeito, ou ele melhora a saúde ou melhora a estética, o <a href="LINK AQUI" style="text-decoration:none"><font color="red">Resveratrol Americano</font></a> é o primeiro composto do mundo que faz as 2 coisas! O efeito do tratamento é surpreendente. E, a partir de 90 dias, consegue-se perceber o efeito da cura das rugas e linhas de expressão.”</p>					
+					<img src="img/img3.jpg" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid">
+					<h6>Tratamento com o Resveratrol Americano, resultado após 3 meses de tratamento. (Foto: Reprodução FDA/Murilo Serra G1)</h6>
+					<h1>Resultados Surpreendentes</h1>
+					<p style="text-align: left;">Lúcia Hoffmann, 56, conta que foi chamada no início de novembro pela equipe <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> para fazer um teste sem custos por 150 dias. Ela relatou que o resultado foi muito maior do que poderia imaginar: “De uns anos pra cá o meu rosto começou a envelhecer muito. O maior impacto foi causado pelo stress excessivo por conta da pandemia, quando eu e minha família ficamos desempregados por um tempo. E eu já não sabia o que fazer, pois havia tentado todo tipo de tratamento e produto. Mas nada funcionava, até que minha história chamou atenção da equipe do <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> , e eu fui convidada para fazer um Desafio por 150 dias. E tudo mudou. Eu acho que o grande diferencial do <a href="LINK AQUI" style="text-decoration:none"><font color="red"><b>Reveravit</font></b></a> é a sua fórmula, né? Eu pesquisei bastante e não encontrei nenhuma fórmula realmente eficaz nos produtos daqui.”</p>
+                                      <p>Lúcia conseguiu acabar com as rugas e começou a aparentar 10 anos mais nova, e ainda brinca que suas amigas sempre perguntam o segredo do seu rosto, e Lúcia brinca. “Segredinho das blogueiras, e eu importei dos Estados Unidos… Tava me sentindo feia com as rugas, tive que dar um jeito né? Eu gosto do meu rosto jovial, e em 5 meses ele rejuvenesceu 10 anos (risos).” Ela enfatiza: “É um produto com uma tecnologia fantástica. Nunca vai faltar na minha casa. Agora mais por precaução, né?”.</p>
+					<p style="text-align: left;">Ela não foi a única brasileira convidada para fazer testes com o produto antes do início das vendas no Brasil. No Site Oficial da marca existem depoimentos de pelo menos mais 5 mulheres, de 33 até 68 anos, que relataram suas experiências positivas com o produto.</p>
+					<img src="img/img5.png" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid">
+                                        <h6>Lúcia Hoffmann, 56, de Cascavel (PR), depois de 3 meses de tratamento. (Foto: Facebook)</h6>
+                                        <h1>Única Fórmula do mundo com Resveratrol Americano</h1>
+					<p style="text-align: left;"><a href="LINK AQUI" style="text-decoration:none"><font color="red">Resveratrol Americano</font></a>: É muito provável que você já tenha lido ou escutado que o hábito de tomaruma taça de vinho tinto por dia pode trazer benefícios Ocorre que a grande estrela por trás dos benefícios do vinho tinto é um composto molecular especial chamado RESVERATROL. Porém naturalmente ele está em quantidades que não podem ser obtidas bebendo vinho ou suco. Algumas pesquisas apontam que o Resveratrol é um nutrientepró-longevidade. Um estudo publicado em 2018 na revista Biomedicinesrelata sobre propriedades biológicas do resveratrol, com destaque a sua capacida de atuar como um potente antioxidante, protegendo as células contrao estresse oxidativo.</p>
+                                        <p style="text-align: left;"><b>Ácido Hialurônico:</b> O Ácido Hialurônico é uma substância natural produzida pelo nosso corpo, famoso por manter a hidratação e firmeza da pele. Mas, à medida que envelhecemos, essa produção diminui, reduzindo também a hidratação e elasticidade da pele;</p>
+                                        <p style="text-align: left;"><b>Colágeno Verisol:</b> O colágeno é muito importante para manter as células firmes e unidas, sendo não só importante para a pele, mas também para outros tecidos; como para a integridade dos músculos, dos ligamentos, dos tendões e das articulações. Além disso hidrata o cabelo e estimula o crescimento de novos fios;</p>
+                                        <p style="text-align: left;"><b>Queratina Hidrolisada:</b> Fortalece e regenera a pele, e restaura o brilho, conferindo uma pele mais lisa e limpa; </p>
+                                        <p style="text-align: left;"><b>Biotina:</b> Combate as rugas e fortalece a pele. Além disso, também atua nas marcas de expressão, cabelo e unhas, fortalecendo-as;</p>
+                                        <p style="text-align: left;"><b>Metilsulfonilmetano:</b> Favorece a nutrição da pele e atua combatendo as rugas;</p>
+                                        <p style="text-align: left;"><b>Retinol:</b> Estimula a renovação celular e a síntese de colágeno no rosto; </p>
+                                        <p style="text-align: left;"><b>Niacina:</b> Nutre as camadas de proteção da pele (derme e epiderme) e previne as rugas e marcas de expressão.</p>
+                                        <h1>Comparativo</h1>
+                                        <p style="text-align: left;">Fizemos testes em laboratório com o <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> para comparar sua eficácia em relação a outros produtos para pele que estão disponíveis no mercado brasileiro. Para isso, analisamos 15 produtos e verificamos que 12 desses contém como base o ácido hialurônico em conjunto com colágeno. Os outros 5 apresentam ácido retinoico como ingrediente principal.</p>
+                                        <p style="text-align: left;">Elaboramos o gráfico visual abaixo onde avaliamos três características principais dessas formulações, sendo elas o combate a rugas (quanto mais preenchido, maior o efeito com menos doses da suplementação); a aparência de pele mais jovem (quanto mais preenchido, maior a velocidade de crescimento em menos doses da suplementação); e por último, o combate das linhas de expressão  (quanto mais preenchido, maior a intensidade com menos doses da suplementação).”</p>
+					<a href="LINK AQUI"><img src="img/img6.jpg" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid"></a>
+					<h6>estes realizados comparando o Hialuroni Caps a outras duas fórmulas que estão em alta no Brasil. (Dados: Laboratório Brasil LTDA/SP)</h6>
+					<p style="text-align: left;">Em todos os quesitos testados, a formulação do <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> se saiu melhor que as outras duas, recebendo uma nota geral de 9,3. As outras duas fórmulas receberam a pontuação de 7,8 e 6,4 para ácido hialurônico em conjunto com colágeno, respectivamente.</p>
+                                        <p style="text-aling: left;">Assim nossos clientes tem risco zero, para conhecer e experimentar nosso produto. Essa é a prova máxima da confiança que temos em nossa fórmula exclusiva”, afirma o fabricante.</p>
+					<h1>Funciona melhor em mulheres do que em homens</h1>
+					<p style="text-align: left;">Segundo a médica, o produto é direcionado ao público feminino. “É necessário ter em mente que o envelhecimento que ocorre nos homens tem causas diferentes daquela que atinge as mulheres. No sexo masculino a questão genética tem muito mais força. Nas mulheres o problema é quase sempre uma questão da deficiência de importantes nutrientes que compõem as 3 camadas de formação da pele. O <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> foi feito para sanar essa deficiência.” destaca.</p>
+                                        <p style="text-align: left;">Quando perguntada sobre o uso do produto por homens, ela respondeu: “Não é que o produto não tenha eficácia em homens. Ele tem. Nós temos histórias de sucesso de homens que utilizaram. Quando lançamos a patente, nós fizemos testes em homens e mulheres. O resultado foi muito maior nas mulheres. Todavia, certamente o envelhecimento dos homens era algo genético, diferentemente das mulheres que era falta de vitaminas, que normalmente ocorre após os 30, 40 anos.” E enfatizou: “Como os homens no geral não se preocupam tanto com a aparência do rosto, as dosagens e a eficácia do produto foi desenvolvida para as mulheres, onde temos 99% de Eficácia nos testes feitos pelo FDA (Anvisa Americana). Nós inclusive damos as mulheres uma garantia de 90 dias pela confiança que temos no produto, resultado garantido ou dinheiro de volta.” afirma.</p>
+                                        <img src="img/s.png" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid">
+                                        <h6>Eficácia do Resveratrol Americano. (Dados: Laboratório Brasil LTDA/SP)</h6>
+                                        <h1>Como funciona a garantia de 90 dias?</h1>
+					<p style="text-align: left;">De acordo com o fabricante, o produto já é conhecido por disponibilizar garantia de 90 dias nas vendas em todo os Estados Unidos e para alguns países da Europa. Com a chegada ao mercado brasileiro, o Brasil será incluído na lista de países beneficiados. Com isso, ao adquirir três potes ou mais, para iniciar o tratamento por 90 dias, o fabricante se propõe a reembolsar a cliente, caso não exista combate a Rugas, Linhas de Expressão ou Bigode Chinês, num período de 90 dias desde o início do tratamento, bastando apenas seguir as regras da promoção, que estão disponibilizadas no Site Oficial.(<a href="LINK AQUI" style="text-decoration:none"><font color="red">Clique Aqui</font></a> para acessar).</p>
+                                        <p style="text-align: left;">Assim nossos clientes tem risco zero, para conhecer e experimentar nosso produto. Essa é a prova máxima da confiança que temos em nossa fórmula exclusiva”, afirma o fabricante.</p>
+                                        <p style="text-align: left;">A marca Revera Vit solicitou o registro para importação e comercialização do <a href="LINK AQUI" style="text-decoration:none"><font color="red">Resveratrol Americano</font></a> no mercado brasileiro no final de 2020. No entanto, somente em maio de 2022 a <a href="LINK AQUI" style="text-decoration:none" style="text-decoration:none"><font color="red">Anvisa</font></a> deu o parecer favorável à sua comercialização em território nacional.Estávamos em busca de novos mercados e percebemos que o Brasil é um dos únicos países em que os produtos para tratamento da pele são praticamente iguais, com a variações mínimas da mesma fórmula. Uma fórmula que não tem eficácia alguma.” enfatiza a Dra. Daphné Thioly-Bensoussan , renomada dermatologista americana que atua no Texas e é chefe de pesquisas do Reveravit.</p>
+                                        <p style="text-align: left;">“É até absurdo saber que a legislação no Brasil permite a comercialização de produtos sem que eles precisem comprovar a sua eficácia.” admite a médica. “Quando uma cliente procura por um produto, ela necessita ter garantias de que aquilo que ela investiu o seu dinheiro vai realmente funcionar, sobretudo, quando se trata de uma parte do corpo importantíssima para sua autoestima, como é o seu rosto.” ressalta.</p>
+                                        <img src="img/img7.jpg" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid">
+                                        <h6>Médica Dermatologista Daphné Thioly-Bensoussan. (Foto: Anti Age Magazine)</h6>
+                                        <h1>Existem Contraindicações ou Efeitos Colaterais?</h1>
+                                        <p style="text-align: left;">Segundo o fabricante, o <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> é um suplemento natural e não apresenta contraindicação ou efeito colateral. Isso significa que mesmo pessoas portadoras de doenças crônicas podem fazer uso do produto. Entretanto, é aconselhável a grávidas e mulheres amamentando que consultem o médico antes do início da suplementação.</p>
+                                        <h1>A maneira correta de ingestão</h1>
+                                        <p style="text-align: left;">Para resultados satisfatórios, é recomendado o consumo de 10 gotas do <a href="LINK AQUI" style="text-decoration:none"><font color="red">Clique Aqui</font></a> ao dia, num intervalo de 12 horas, sendo 10 pela manhã e 10 à noite. Cada dose tem quantidade suficiente para garantir um intenso efeito do produto no organismo por 8 até 13 horas.</p>
+                                        <h2>Quanto custa</h2>
+					<p style="text-align: left;">O preço do Tratamento do <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> varia de acordo com a quantidade de frascos adquiridos. O fabricante trabalha com descontos progressivos, ou seja, quanto mais frascos você adquirir, maior será o desconto no valor final.</p>
+                                        <img src="img/img8.png" width="100%" height="100%" alt="Foto Matéria" class="img-materia img-fluid">
+                                        <h6>Antes e Depois, Resveratrol Americano. (Foto: Reprodução/Murilo Serra ).</h6>
+					<h2>Onde Comprar</h2>
+					<p style="text-align: left;">No Brasil, assim como nos Estados Unidos com a pandemia, o <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> trabalhará apenas com o sistema de vendas online, onde o cliente poderá adquirir pelo <a href="LINK AQUI" style="text-decoration:none"><font color="red">Site OficialL</font></a> e receber no conforto da sua casa. CUIDADO: A marca <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a> não vende pelo Mercado Livre, OLX, ou outros sites. Certifique-se estar comprando o produto <a href="LINK AQUI" style="text-decoration:none"><font color="red">ORIGINAL</font></a>, por isso, sempre adquira do <a href="LINK AQUI" style="text-decoration:none"><font color="red">Site Oficial</font></a>.</p>
+                                        <h1>Oportunidade Especial Para Nossas Melhores Leitoras</h1>
+                                        <p style="text-align: left;">Durante a produção dessa reportagem, o fabricante entrou em contato com nossa produção e ofereceu um Desconto Especial e a condição de parcelamento em até 12x no cartão de crédito para nossas leitoras que estiverem interessadas em experimentar o <a href="LINK AQUI" style="text-decoration:none"><font color="red">Reveravit</font></a></p>
+                                        <p style="text-align: left;">Atenção: O desconto é válido apenas enquanto durarem os estoques, e é aplicado automaticamente ao clicar na imagem abaixo.</p>
+                                        <h4 style="text-align: center;">Oportunidade Especial Para Nossos Leitores</h4>
+					<h5 style="text-align: center;">Válida até hoje:</h5>
+					
+					<h4>EXPERIMENTE REVERAVIT EM 12X COM ATÉ 75% DE DESCONTO!</h4>
+					
+					<h1>ÚLTIMAS UNIDADES COM DESCONTO</h1>
+					<img src="img/anvisa.png" class="img-fluid" alt="img">
+					<a href="LINK AQUI" class="bt-adv-oferta">COMPRE AGORA!</a>
+					
+				</div>
+			
+				<div class="comentarios-g1">
+					<img src="img/comentarios.png" class="img-fluid comentarios-g1-img" alt="img">
+				</div>
+				
+			</div>
+			<!-- Conteúdo da matéria !-->
+			
+			<!-- Coluna lateral com oferta !-->
+			<div class="col-md-4 col-lg-4 col-sm-4">
+				
+				<div class="bloco-mini-noticias">
+					<img src="img/mini-news.png" class="img-fluid mini-news" alt="img">
+				</div>
+				
+				<!-- Ofertas ADV !-->
+				<div class="bloco-banners-oferta">
+					
+					<!-- Links banners oferta 5 potes !-->
+                                                <a href="https://ev.braip.com/checkout/plax06ln/che6rme1?split=12" target="_blank">
+						<img src="img/12pt.png" class="img-fluid 5pots" alt="img">
+					</a>
+					<a href="https://ev.braip.com/checkout/plax06ln/che6rme1?split=12" target="_blank">
+						<img src="img/5pt.png" class="img-fluid 5pots" alt="img">
+					</a>
+					<!-- Links banners oferta 5 potes !-->
+					
+					<!-- Links banners oferta 3 potes !-->
+					<a href="https://ev.braip.com/checkout/pla24l1x/che6rme1?split=12" target="_blank">
+						<img src="img/3pt.png" class="img-fluid 3pots" alt="img">
+					</a>
+					<!-- Links banners oferta 3 potes !-->
+					
+					<!-- Links banners oferta 1 pote !-->
+					<a href="https://ev.braip.com/checkout/plagd0eg/che6rme1?split=12" target="_blank">
+						<img src="img/1pt.png" class="img-fluid 1pots" alt="img">
+					</a>
+					<!-- Links banners oferta 1 pote !-->
+					
+				</div>
+				<!-- Ofertas ADV !-->
+				
+			</div>
+			<!-- Coluna lateral com oferta !-->
+			
+		</div>
+	</div>
+</section>
+	
+	
+<footer class="rodape" id="rodape">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12 col-lg-12 col-sm-12">
+				<a href=""><img src="img/f1.png" class="img-fluid f1-img" alt="img"></a>
+			</div>
+			
+			<div class="col-md-6 col-lg-6 col-sm-6">
+				<a href=""><img src="img/f2.png" class="img-fluid f2-img" alt="img"></a>
+			</div>
+			
+			<div class="col-md-6 col-lg-6 col-sm-6">
+				<a href=""><img src="img/f3.png" class="img-fluid f3-img" alt="img"></a>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+	
+<!-- Optional JavaScript; choose one of the two! -->	
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>	
+<!-- Optional JavaScript; choose one of the two! -->
+</body>
+</html>
